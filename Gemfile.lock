@@ -23,12 +23,6 @@ GIT
       redis (>= 2.2)
 
 GIT
-  remote: git://github.com/redis/redis-rb.git
-  revision: e1881b2fbc7b361aa0aefc9ea520bdee0383f735
-  specs:
-    redis (3.0.4)
-
-GIT
   remote: git://github.com/rspec/rspec-core.git
   revision: 4d873a467ecb3de73a1c98e3995268d2f17bdbee
   specs:
@@ -144,6 +138,8 @@ GEM
     factory_girl_rails (4.2.1)
       factory_girl (~> 4.2.0)
       railties (>= 3.0.0)
+    fakeredis (0.4.2)
+      redis (~> 3.0.0)
     fancybox2-rails (0.2.4)
       railties (>= 3.1.0)
     ffi (1.9.0)
@@ -221,6 +217,7 @@ GEM
       ffi (>= 0.5.0)
     rb-kqueue (0.2.0)
       ffi (>= 0.5.0)
+    redis (3.0.4)
     slop (3.4.5)
     spork (1.0.0rc3)
     sprockets (2.10.0)
@@ -258,6 +255,7 @@ DEPENDENCIES
   byebug
   capybara
   factory_girl_rails
+  fakeredis
   guard
   guard-rspec
   guard-spork
@@ -270,7 +268,6 @@ DEPENDENCIES
   pry-rails
   pry-stack_explorer
   rb-inotify
-  redis!
   redis-i18n!
   redis-rails!
   redis-store!

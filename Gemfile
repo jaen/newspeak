@@ -33,7 +33,8 @@ gem 'rspec-mocks', :github => 'rspec/rspec-mocks'
 gem 'rspec-core', :github => 'rspec/rspec-core'
 
 # redis
-gem 'redis', :github => 'redis/redis-rb'
+# gem 'redis', :github => 'redis/redis-rb'
+gem 'fakeredis', :require => 'fakeredis/rspec' # fake redis for testing
 gem 'redis-rails', :github => 'jodosha/redis-store'
 gem 'redis-store', :github => 'jodosha/redis-store'
 gem 'redis-i18n', :github => 'jodosha/redis-store'
