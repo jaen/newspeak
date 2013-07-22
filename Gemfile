@@ -10,5 +10,30 @@ gemspec
 # Git. Remember to move these dependencies to your gemspec before releasing
 # your gem to rubygems.org.
 
-# To use debugger
-# gem 'debugger'
+gem 'pry'
+gem 'pry-rails'
+gem 'pry-doc'
+
+gem 'byebug'
+gem 'pry-byebug'
+gem 'pry-stack_explorer'
+
+gem 'better_errors'
+gem 'binding_of_caller'
+
+gem 'rspec', :github => 'rspec/rspec'
+gem 'rspec-rails', :github => 'rspec/rspec-rails'
+gem 'spork-rails', :github => 'sporkrb/spork-rails'
+gem 'rb-inotify', :platform => :ruby
+gem 'nifty-generators'
+
+# cause we need 3.0.0.pre, lol
+gem 'rspec-expectations', :github => 'rspec/rspec-expectations'
+gem 'rspec-mocks', :github => 'rspec/rspec-mocks'
+gem 'rspec-core', :github => 'rspec/rspec-core'
+
+# redis
+gem 'redis', :github => 'redis/redis-rb'
+gem 'redis-rails', :github => 'jodosha/redis-store'
+gem 'redis-store', :github => 'jodosha/redis-store'
+gem 'redis-i18n', :github => 'jodosha/redis-store'
