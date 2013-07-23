@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/hsume2/foreman.git
+  revision: 065bbf1cd8f8eb0e1abbc5b8da7da2ff1cf5ed46
+  specs:
+    foreman (0.47.0)
+      thor (>= 0.13.6)
+
+GIT
   remote: git://github.com/jodosha/redis-store.git
   revision: 309425a66cb2435478583a17a3073a9c94f32142
   specs:
@@ -256,6 +263,7 @@ DEPENDENCIES
   capybara
   factory_girl_rails
   fakeredis
+  foreman!
   guard
   guard-rspec
   guard-spork

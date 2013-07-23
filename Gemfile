@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
 # Declare your gem's dependencies in newspeak.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
@@ -38,3 +38,5 @@ gem 'fakeredis', :require => 'fakeredis/rspec' # fake redis for testing
 gem 'redis-rails', :github => 'jodosha/redis-store'
 gem 'redis-store', :github => 'jodosha/redis-store'
 gem 'redis-i18n', :github => 'jodosha/redis-store'
+
+gem 'foreman', :github => 'hsume2/foreman'
